@@ -22,11 +22,14 @@ import java.util.*;
 	스타상(*), 아차상(#)은 점수마다 둘 중 하나만 존재할 수 있으며, 존재하지 않을 수도 있다.
 	0~10의 정수와 문자 S, D, T, *, #로 구성된 문자열이 입력될 시 총점수를 반환하는 함수를 작성하라.
  * 
- * 	Solution : 1. 
+ * 	Solution : 1. 들어오는 숫자를 판별 -> charAt으로 글자마다 비교
+ * 			   2. 임시 스트링을 하나 만들어 놓고, 숫자일 경우에는 계속해서 스트링 값을 이어서 받음
+ * 			   3. S, D, T는 숫자 바로 뒤에 붙는 형식이므로 else if로 분기처리해주고 case 별로 제곱수를 넣어줌
+ * 			   4. #일 경우 -1을 곱하고 *일 경우 *2를 해줌으로 형식을 처리 해주는데, *2는 idx - 2가 0이상일 경우에도 처리를 해줌
+ * 			   5. 값을 answer에 담아 return
  * */
 
 public class Solution {
-
     public static boolean isNumeric(char s) {
         if (s < '0' || s > '9') {
             return false;
@@ -80,6 +83,7 @@ public class Solution {
         
         return answer;
     }
+
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
