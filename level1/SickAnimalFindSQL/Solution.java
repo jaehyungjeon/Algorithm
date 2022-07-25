@@ -30,7 +30,7 @@ package SickAnimalFindSQL;
 	A381217	Cherokee
 
  * 
- * 	Solution : 1. NAME 이 NULL 인 것 출력
+ * 	Solution : 1. SICK인 것 출력
  * */
 
 public class Solution {

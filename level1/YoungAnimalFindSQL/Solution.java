@@ -31,7 +31,7 @@ package YoungAnimalFindSQL;
 	A381217	Cherokee
 
  * 
- * 	Solution : 1. NAME 이 NULL 인 것 출력
+ * 	Solution : 1. AGED가 아닌 것 출력
  * */
 
 public class Solution {

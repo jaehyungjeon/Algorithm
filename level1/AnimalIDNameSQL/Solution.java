@@ -26,7 +26,7 @@ package AnimalIDNameSQL;
 	((이하 생략))
 
  * 
- * 	Solution : 1. NAME 이 NULL 인 것 출력
+ * 	Solution : 1. ANIMAL_ID로 정렬
  * */
 
 public class Solution {
