@@ -29,7 +29,6 @@ public class Solution {
         	answer = -1;
         }
         
-        System.out.println(tmp);
         return answer;
     }
     
