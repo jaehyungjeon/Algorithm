@@ -53,15 +53,15 @@ public class Solution {
 		
 		while(!q.isEmpty()) {
 			Number p = q.poll();
-			if(p.index == numbers.length - 1) {
+			if(p.index == numbers.length - 1) { // depth를 이용한 것과 일치하는 부분
 				if(p.sum == target) {
 					count+=1;
 				}
 				continue;
 			}
 			
-			q.add(new Number(p.sum + numbers[p.index + 1], p.index + 1));
-			q.add(new Number(p.sum - numbers[p.index + 1], p.index + 1));
+			q.add(new Number(p.sum + numbers[p.index + 1], p.index + 1)); // 더하기
+			q.add(new Number(p.sum - numbers[p.index + 1], p.index + 1)); // 빼기
 		}
 		
 		return count;
