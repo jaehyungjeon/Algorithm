@@ -15,7 +15,7 @@ import java.util.*;
  * 	output : [4, 5]
  * 
  * 	Solution : 1. BFS는 잘 몰라서 오픈 소스 참고함. 지금은 분석 위주로 진행 후 차후 다시 재코딩 실시
- * 			   2. 
+ * 			   2. 상 하 좌 우의 값이랑 같을때는 다시 nr, nc의 값을 offer시켜서 반복 수행
  * */
 
 public class Solution {
@@ -28,10 +28,11 @@ public class Solution {
     static int bfs(int row, int col, int m, int n) {
         Queue<int[]> q = new ArrayDeque<>();
         q.offer(new int[]{row,col});
+
         int count = 0;
         while(!q.isEmpty()){
             int[] tmp = q.poll();
-
+            
             int r = tmp[0];
             int c = tmp[1];
             if(check[r][c])
@@ -69,7 +70,6 @@ public class Solution {
                 numberOfArea++;
             }
         }
-
         
         return answer;
     }
