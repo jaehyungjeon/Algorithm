@@ -38,7 +38,7 @@ public class Solution {
         
         p = maps;
         visited = new int[maps.length][maps[0].length];
-        visited[0][0] = 1;
+        visited[0][0] = 1; // √÷√  ≈Ω¡ˆ
         
         bfs(visited);
         
