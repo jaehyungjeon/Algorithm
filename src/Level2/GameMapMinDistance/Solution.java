@@ -51,11 +51,10 @@ public class Solution {
         return answer;
     }
      
-    public static int bfs(int[][] visited) {
+    public static void bfs(int[][] visited) {
     	Queue<int[]> q = new ArrayDeque<int[]>();
     	q.offer(new int[] {0, 0});
     	
-    	int count = 0;
     	while(!q.isEmpty()) {
     		int[] curr = q.poll();
     		int r = curr[0];
@@ -72,7 +71,6 @@ public class Solution {
     			}
     		}
     	}
-    	return count;
     }
     
 	public static void main(String[] args) {
