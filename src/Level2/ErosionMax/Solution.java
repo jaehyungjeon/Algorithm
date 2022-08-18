@@ -79,7 +79,7 @@ public class Solution {
     	if(count == 3) {
     		ArrayList<Long> cNums = new ArrayList<>(q);
     		ArrayList<String> cOps = new ArrayList<>(exp);
-
+    		System.out.println(cNums);
     		for(int i=0; i<p.length; i++) {
     			for(int j=0; j<cOps.size(); j++) {
     				if(p[i].equals(cOps.get(j))) {
@@ -90,7 +90,7 @@ public class Solution {
     				}
     			}
     		}
-    		
+    			
     		answer = Math.max(answer, Math.abs(cNums.get(0))); // Àý´ñ°ªÀÇ MAX
     		return;
     	}
