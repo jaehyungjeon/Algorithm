@@ -50,13 +50,13 @@ public class Solution {
 			dfs("", 0, info[i].split(" "));
 		}
 		
-		// 2. map에 저장된 점수 list 오름차순으로 정렬 	
+		// 2. map에 저장된 점수 list 오름차순으로 정렬 -> 사용하나? 	
 		List<String> list = new ArrayList<>(allInfo.keySet());
 		for(int i=0; i<list.size(); i++) {
 			List<Integer> scoreList = allInfo.get(list.get(i));
 			Collections.sort(scoreList);
 		}
-
+	
 		for(int i=0; i<query.length; i++) {
 			query[i] = query[i].replaceAll(" and ", "");
 			String[] str = query[i].split(" ");
@@ -74,7 +74,7 @@ public class Solution {
 				in = new ArrayList<>();
 				in.add(Integer.parseInt(info[4]));
 				allInfo.put(pos, in);
-			}else {
+			} else {
 				allInfo.get(pos).add(Integer.parseInt(info[4]));
 			}
 			return;
