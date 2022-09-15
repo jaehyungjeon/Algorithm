@@ -27,16 +27,15 @@ public class Solution {
 
     static int bfs(int row, int col, int m, int n) {
         Queue<int[]> q = new ArrayDeque<>();
-        q.offer(new int[]{row,col});
+        q.offer(new int[]{row, col});
 
         int count = 0;
         while(!q.isEmpty()){
             int[] tmp = q.poll();
-            
             int r = tmp[0];
             int c = tmp[1];
-            if(check[r][c])
-                continue;
+            
+            if(check[r][c]) continue;
             check[r][c] = true;
             count++;
 
@@ -48,6 +47,7 @@ public class Solution {
                 }
             }
         }
+        
         return count;
     }
 	
@@ -64,11 +64,12 @@ public class Solution {
 
         for(int r=0; r<m; r++) {
             for(int c=0; c<n; c++) {
-                if(check[r][c] || picture[r][c] == 0)
-                    continue;
+                if(check[r][c] || picture[r][c] == 0) continue;
                 maxSizeOfOneArea = Math.max(bfs(r,c,m,n), maxSizeOfOneArea);
                 numberOfArea++;
             }
+            
+            answer = new int[] {numberOfArea, maxSizeOfOneArea};
         }
         
         return answer;
