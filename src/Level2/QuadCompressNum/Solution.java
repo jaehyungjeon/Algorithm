@@ -28,10 +28,6 @@ public class Solution {
         
         quad(arr.length, 0, 0, arr);
         
-        for(int a : answer) {
-        	System.out.println(a);
-        }
-        
         return answer;
     }
     
