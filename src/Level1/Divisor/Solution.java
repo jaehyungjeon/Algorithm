@@ -1,4 +1,4 @@
-package Divisor;
+package Level1.Divisor;
 
 import java.util.HashMap;
 import java.util.Map;

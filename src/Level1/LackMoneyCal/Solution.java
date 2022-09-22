@@ -1,4 +1,4 @@
-package LackMoneyCal;
+package Level1.LackMoneyCal;
 
 import java.util.*;
 

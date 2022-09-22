@@ -1,4 +1,4 @@
-package NewIdRecomm;
+package Level1.NewIdRecomm;
 /*
  * 신규 아이디 추천
  * 

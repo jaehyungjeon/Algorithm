@@ -1,4 +1,4 @@
-package ProcessionSum;
+package Level1.ProcessionSum;
 
 import java.util.*;
 

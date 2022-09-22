@@ -1,4 +1,4 @@
-package DividedNumArray;
+package Level1.DividedNumArray;
 
 import java.util.*;
 

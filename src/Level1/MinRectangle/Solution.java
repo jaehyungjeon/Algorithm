@@ -1,4 +1,4 @@
-package MinRectangle;
+package Level1.MinRectangle;
 
 import java.util.*;
 

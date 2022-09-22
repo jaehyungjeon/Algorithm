@@ -1,4 +1,4 @@
-package DivisorSum;
+package Level1.DivisorSum;
 
 import java.util.*;
 

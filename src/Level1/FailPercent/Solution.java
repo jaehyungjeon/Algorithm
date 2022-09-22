@@ -1,4 +1,4 @@
-package FailPercent;
+package Level1.FailPercent;
 
 import java.util.Collections;
 import java.util.HashMap;

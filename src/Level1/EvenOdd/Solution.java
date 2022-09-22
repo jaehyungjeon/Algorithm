@@ -1,4 +1,4 @@
-package EvenOdd;
+package Level1.EvenOdd;
 
 import java.util.*;
 

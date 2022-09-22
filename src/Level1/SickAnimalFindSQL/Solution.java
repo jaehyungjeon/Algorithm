@@ -1,4 +1,4 @@
-package SickAnimalFindSQL;
+package Level1.SickAnimalFindSQL;
 
 /*
  * Question : 

@@ -1,4 +1,4 @@
-package Practice;
+package Level1.Practice;
 
 import java.util.ArrayList;
 import java.util.Collections;

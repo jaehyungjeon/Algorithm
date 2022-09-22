@@ -1,4 +1,4 @@
-package FindKimToSeoul;
+package Level1.FindKimToSeoul;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Ternary;
+package Level1.Ternary;
 
 import java.util.ArrayList;
 import java.util.List;

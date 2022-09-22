@@ -1,4 +1,4 @@
-package IntegerSqrt;
+package Level1.IntegerSqrt;
 
 import java.util.*;
 

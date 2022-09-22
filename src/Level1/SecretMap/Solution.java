@@ -1,4 +1,4 @@
-package SecretMap;
+package Level1.SecretMap;
 
 import java.util.*;
 

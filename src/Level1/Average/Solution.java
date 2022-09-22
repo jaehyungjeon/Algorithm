@@ -1,4 +1,4 @@
-package Average;
+package Level1.Average;
 
 import java.util.*;
 

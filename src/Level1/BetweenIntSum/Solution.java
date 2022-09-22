@@ -1,4 +1,4 @@
-package BetweenIntSum;
+package Level1.BetweenIntSum;
 
 import java.util.*;
 

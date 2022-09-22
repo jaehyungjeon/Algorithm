@@ -1,4 +1,4 @@
-package Budget;
+package Level1.Budget;
 
 import java.util.Arrays;
 

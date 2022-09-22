@@ -1,4 +1,4 @@
-package HateSameNum;
+package Level1.HateSameNum;
 
 import java.util.*;
 

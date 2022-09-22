@@ -1,4 +1,4 @@
-package PrimeNum;
+package Level1.PrimeNum;
 
 import java.util.ArrayList;
 import java.util.List;

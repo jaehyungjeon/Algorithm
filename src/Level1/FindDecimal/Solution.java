@@ -1,4 +1,4 @@
-package FindDecimal;
+package Level1.FindDecimal;
 
 import java.util.*;
 

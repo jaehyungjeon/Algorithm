@@ -1,4 +1,4 @@
-package StringToInteger;
+package Level1.StringToInteger;
 
 import java.util.*;
 

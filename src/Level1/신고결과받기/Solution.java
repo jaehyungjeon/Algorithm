@@ -1,4 +1,4 @@
-package 신고결과받기;
+package Level1.신고결과받기;
 
 import java.util.HashMap;
 import java.util.HashSet;

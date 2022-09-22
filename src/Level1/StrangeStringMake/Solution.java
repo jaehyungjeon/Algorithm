@@ -1,4 +1,4 @@
-package StrangeStringMake;
+package Level1.StrangeStringMake;
 
 import java.util.*;
 

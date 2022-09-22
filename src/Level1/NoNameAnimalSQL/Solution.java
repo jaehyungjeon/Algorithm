@@ -1,4 +1,4 @@
-package NoNameAnimalSQL;
+package Level1.NoNameAnimalSQL;
 
 /*
  * Question : 

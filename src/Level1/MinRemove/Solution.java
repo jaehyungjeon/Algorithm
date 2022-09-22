@@ -1,4 +1,4 @@
-package MinRemove;
+package Level1.MinRemove;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Collatz;
+package Level1.Collatz;
 
 import java.util.*;
 

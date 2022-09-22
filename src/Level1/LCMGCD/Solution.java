@@ -1,4 +1,4 @@
-package LCMGCD;
+package Level1.LCMGCD;
 
 import java.util.*;
 

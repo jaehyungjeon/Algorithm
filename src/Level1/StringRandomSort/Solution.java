@@ -1,4 +1,4 @@
-package StringRandomSort;
+package Level1.StringRandomSort;
 
 import java.util.*;
 

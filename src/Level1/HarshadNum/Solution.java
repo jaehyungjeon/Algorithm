@@ -1,4 +1,4 @@
-package HarshadNum;
+package Level1.HarshadNum;
 
 import java.util.*;
 

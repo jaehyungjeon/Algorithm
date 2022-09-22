@@ -1,4 +1,4 @@
-package lotto;
+package Level1.lotto;
 
 /*
  * Question : 

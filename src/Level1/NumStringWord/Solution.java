@@ -1,4 +1,4 @@
-package NumStringWord;
+package Level1.NumStringWord;
 
 import java.util.ArrayList;
 import java.util.HashMap;

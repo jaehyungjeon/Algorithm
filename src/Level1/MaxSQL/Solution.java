@@ -1,4 +1,4 @@
-package MaxSQL;
+package Level1.MaxSQL;
 
 /*
  * Question : 

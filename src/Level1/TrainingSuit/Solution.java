@@ -1,4 +1,4 @@
-package TrainingSuit;
+package Level1.TrainingSuit;
 
 import java.util.Arrays;
 

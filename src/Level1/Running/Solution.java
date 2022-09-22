@@ -1,4 +1,4 @@
-package Running;
+package Level1.Running;
 
 import java.util.HashMap;
 import java.util.Map.Entry;

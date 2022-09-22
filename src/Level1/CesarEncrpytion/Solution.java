@@ -1,4 +1,4 @@
-package CesarEncrpytion;
+package Level1.CesarEncrpytion;
 
 import java.util.*;
 

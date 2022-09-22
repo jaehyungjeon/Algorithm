@@ -1,4 +1,4 @@
-package XIntervalNNum;
+package Level1.XIntervalNNum;
 
 import java.util.*;
 

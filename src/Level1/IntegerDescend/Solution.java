@@ -1,4 +1,4 @@
-package IntegerDescend;
+package Level1.IntegerDescend;
 
 import java.util.*;
 

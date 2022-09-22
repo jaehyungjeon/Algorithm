@@ -1,4 +1,4 @@
-package ClapWaterMelon;
+package Level1.ClapWaterMelon;
 
 import java.util.*;
 
