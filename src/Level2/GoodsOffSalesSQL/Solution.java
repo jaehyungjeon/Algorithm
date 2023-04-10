@@ -1,4 +1,4 @@
-package Level2.goodsOffSalesSQL;
+package Level2.GoodsOffSalesSQL;
 
 import java.util.*;
 
