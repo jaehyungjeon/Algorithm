@@ -4,23 +4,24 @@ import java.util.*;
 
 /*
  * Question : 
-	'경제' 카테고리에 속하는 도서들의 도서 ID(BOOK_ID), 저자명(AUTHOR_NAME), 출판일(PUBLISHED_DATE) 리스트를 출력하는 SQL문을 작성해주세요.
-	결과는 출판일을 기준으로 오름차순 정렬해주세요.
+	USED_GOODS_BOARD 테이블에서 2022년 10월 5일에 등록된 중고거래 게시물의 게시글 ID, 작성자 ID, 게시글 제목, 가격, 거래상태를 조회하는 SQL문을 작성해주세요. 
+	거래상태가 SALE 이면 판매중, RESERVED이면 예약중, DONE이면 거래완료 분류하여 출력해주시고, 결과는 게시글 ID를 기준으로 내림차순 정렬해주세요.
  * 
- * 	Solution : 1. 테이블 조인(AUTHOR_ID)
- * 			   2. 조건 CATEGORY = '경제'
- * 			   3. 날짜 오름차순 정렬
- * 			   4. 'YYYY-MM-DD' 형식으로 형변환
+ * 	Solution : 1. STATUS는 CASE WHEN 사용하여 변환
+ * 			   2. 날짜 DATE는 TO_CHAR을 이용하여 변환
+ * 			   3. BOARD_ID 기준 오름차순
  *  
  * */
 
 public class Solution {
-	SELECT A.BOOK_ID,
-    B.AUTHOR_NAME,
-    TO_CHAR(A.PUBLISHED_DATE, 'YYYY-MM-DD') AS PUBLISHED_DATE
-	FROM BOOK A,
-	  AUTHOR B
-	WHERE A.AUTHOR_ID = B.AUTHOR_ID
-	AND   A.CATEGORY = '경제'
-	ORDER BY A.PUBLISHED_DATE ASC
+	SELECT BOARD_ID,
+    WRITER_ID,
+    TITLE,
+    PRICE,
+    CASE WHEN STATUS = 'SALE' THEN '판매중'
+         WHEN STATUS = 'RESERVED' THEN '예약중'
+         WHEN STATUS = 'DONE' THEN '거래완료' END AS STATUS
+	FROM   USED_GOODS_BOARD
+	WHERE  TO_CHAR(CREATED_DATE, 'YYYYMMDD') = '20221005'
+	ORDER BY BOARD_ID DESC
 }
