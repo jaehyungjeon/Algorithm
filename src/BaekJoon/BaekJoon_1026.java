@@ -30,7 +30,6 @@ import java.util.StringTokenizer;
 	
 */
 
-
 public class BaekJoon_1026 {
 
 	public static void main(String[] args) throws Exception {
