@@ -17,7 +17,6 @@ import java.util.StringTokenizer;
 			   2. 따라서, 들어오는 값을 배열로 구성해준 2개의 배열이 동일하면서, 8인 순간일때만 카운트를 증가시키면 된다.
 */
 
-
 public class BaekJoon_1105 {
 
 	public static void main(String[] args) throws Exception {
