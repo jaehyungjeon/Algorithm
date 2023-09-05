@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 			   2. N이 1이 되는 순간 while문을 나온다.
 
 */
+
 public class BaekJoon_1676 {
 
 	public static void main(String[] args) throws Exception {
