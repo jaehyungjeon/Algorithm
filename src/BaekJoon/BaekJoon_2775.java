@@ -12,11 +12,11 @@ import java.io.InputStreamReader;
 	단, 아파트에는 0층부터 있고 각층에는 1호부터 있으며, 0층의 i호에는 i명이 산다.
 
 	input			 
-2
-1
-3
-2
-3
+	2
+	1
+	3
+	2
+	3
 	
 	output
 	6
