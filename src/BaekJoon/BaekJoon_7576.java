@@ -37,7 +37,7 @@ import java.util.StringTokenizer;
 
 public class BaekJoon_7576 {
 
-	public static int N, M, count;
+	public static int N, M;
 	public static int[][] arr;
 	public static int[] dx = {-1, 0, 0, 1};
 	public static int[] dy = {0, 1, -1, 0};
@@ -50,7 +50,6 @@ public class BaekJoon_7576 {
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		arr = new int[M][N];
-		count = 0;
 		
 		for(int i=0; i<M; i++) {
 			st = new StringTokenizer(br.readLine());
