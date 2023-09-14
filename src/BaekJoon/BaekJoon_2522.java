@@ -10,17 +10,17 @@ import java.io.InputStreamReader;
 	3
 	
 	output
-	*
-	**
+	  *
+	 **
 	***
-	**
-	*
+	 **
+	  *
 	
 	Solution : 1. 나눠서 찍으면 편리하다.
 
 */
 
-public class BaekJoon_2523 {
+public class BaekJoon_2522 {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
@@ -28,14 +28,20 @@ public class BaekJoon_2523 {
 		int N = Integer.parseInt(br.readLine());
 		
 		for(int i=1; i<=N; i++) {
-			for(int j=0; j<i; j++) {
+			for(int j=0; j<N-i; j++) {
+				System.out.print(" ");
+			}
+			for(int j=N-i; j<N; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
  
 		for(int i=N-1; i>0; i--) {
-			for(int j=0; j<i; j++) {
+			for(int j=0; j<N-i; j++) {
+				System.out.print(" ");
+			}
+			for(int j=N-i; j<N; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
