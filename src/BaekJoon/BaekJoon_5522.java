@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
 	output
 	15
 	
-	Solution : 1. 
+	Solution : 1. 입력 받은 값의 합 
 
 */
 
