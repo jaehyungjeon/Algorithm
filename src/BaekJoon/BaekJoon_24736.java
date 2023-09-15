@@ -18,8 +18,8 @@ import java.util.StringTokenizer;
 	Given the box score values for two competing teams, calculate the point total for each team.
 
 	input			 
-1 3 0 0 1
-3 1 1 1 1
+	1 3 0 0 1
+	3 1 1 1 1
 	
 	output
 	17 26
