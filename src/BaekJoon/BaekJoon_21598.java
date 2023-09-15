@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 	output
 	SciComLove
 	
-	Solution : 1. 
+	Solution : 1. 반복문 출력
 	
 */
 
