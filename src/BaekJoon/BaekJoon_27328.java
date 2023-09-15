@@ -32,7 +32,7 @@ public class BaekJoon_27328 {
 		} else if(N == M) {
 			System.out.println(0);
 		} else {
-			System.out.println(-1);
+			System.out.println(-1); 
 		}
 
 	}
